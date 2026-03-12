@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Test</title>
+    <link rel="stylesheet" href="classTest.css">
+</head>
+<body>
+    <h1>Online Feedback Form</h1>
+    <form>
+        <div class="form-item">
+           <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        
+        <div class="form-item">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        </div>
+
+        <div class="form-item">
+            <label for="rating">Rating</label>
+            <select id="rating" name="rating">
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+            </select>
+        </div>
+
+
+        <div class="form-item">
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+        </div>
+  
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
