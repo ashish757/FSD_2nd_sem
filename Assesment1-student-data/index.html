@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-grp">
+        <div class="inputs">
+            <input type="text" placeholder="Enter Name" id="stdName">
+            <input type="number" placeholder="Enter Roll number" id="stdRoll">
+            <input type="number" placeholder="marks of math" id="mathMarks">
+            <input type="number" placeholder="marks of science" id="scienceMarks">
+            <input type="number" placeholder="marks of english" id="englishMarks">
+        </div>
+        <div class="buttons">
+            <button id="addBtn">Add Student</button>
+            <button id="displayBtn">Display All</button>
+            <button id="totalBtn">Total Students</button>
+            <button id="avgMarksBtn">Avg Marks</button>
+            <button id="avgFilterBtn">Avg above 80</button>
+            <button id="failedStudentsBtn">Failed Students</button>
+        </div>
+        </div>
+
+        <div class="details">
+            <p id="info"></p>
+            <table>
+                <tr>
+                    <th>Roll Number</th>
+                    <th>Name</th>
+                    <th>Math Marks</th>
+                    <th>Science Marks</th>
+                    <th>English Marks</th>
+                    <th>Average Marks</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
