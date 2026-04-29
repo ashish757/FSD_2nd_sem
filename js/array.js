@@ -13,10 +13,9 @@ data.printInfo();
 console.log(data.name);
 
 
-
-
 let marks = [85, 90, 78, 92, 88];
 let totalMarks = marks.reduce((total, mark) => total + mark, 0);
+
 function incTenPercent(marks) {
       return marks.map(mark => mark * 1.1);
 }
