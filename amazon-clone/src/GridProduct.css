@@ -4,8 +4,9 @@
   padding: 20px;
   background-color: white;
   z-index: 1;
-  width: 100%;
-  max-width: 350px;
+  flex: 1 0 290px;
+  min-width: 290px;
+  max-width: 420px;
 }
 
 .gridProduct_title {
@@ -48,4 +49,10 @@
 .gridProduct_link:hover {
   text-decoration: underline;
   color: #c45500;
+}
+
+@media (max-width: 768px) {
+  .gridProduct {
+    max-width: 100%;
+  }
 }

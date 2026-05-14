@@ -48,6 +48,8 @@
   overflow: hidden;
   margin: 0 15px;
   height: 40px;
+  min-width: 250px;
+
 }
 
 .header_search:focus-within {
@@ -164,8 +166,33 @@
   align-items: center;
   font-size: 14px;
   gap: 5px;
+  overflow-x: auto;
 }
 
 .header_bottom_nav .nav_border {
   padding: 5px 8px;
+}
+
+@media (max-width: 780px) {
+  .header {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+  .header_search {
+    order: 3;
+    width: 100%;
+    margin: 0;
+  }
+  .header_location {
+    display: none;
+  }
+  .header_bottom_nav {
+    overflow-x: auto;
+    padding-bottom: 5px;
+  }
+  .header_bottom_nav::-webkit-scrollbar {
+    display: none;
+  }
 }

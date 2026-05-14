@@ -62,3 +62,10 @@
   object-fit: contain;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .productCarousel {
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+  }
+}
