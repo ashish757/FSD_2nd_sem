@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './gameScore.css'
 
-function GameScore() {
+function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -27,4 +27,4 @@ function GameScore() {
   )
 }
 
-export default GameScore
+export default App
